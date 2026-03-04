@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Francesco Silva"
 title_separator          : "-"
-name                     : &name "Francesco Silva"
+name                     : &name "Francesco A.B. Silva"
 description              : &description "Francesco Silva's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://francescosilva.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -24,11 +24,11 @@ repository               : "FrancescoSilva/francescosilva.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Francesco Silva"
+  name             : "Francesco A.B. Silva"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral Researcher"
-  location         : "Texas A&M University"
-  employer         : # URL
+  location         : "College Station"
+  employer         : "Texas A&M University"
   uri              : # URL
   email            : "francesco.silva [at] tamu [dot] edu" 
 
