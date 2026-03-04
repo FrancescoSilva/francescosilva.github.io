@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Francesco Silva"
   pronouns         : # example: "she/her"  
-  bio              : "Postdoctoral Associate at Texas A&M"
-  location         : "College Station"
-  employer         : "Texas A&M University"
+  bio              : "Postdoctoral Researcher"
+  location         : "Texas A&M University"
+  employer         : # URL
   uri              : # URL
   email            : "francesco.silva [at] tamu [dot] edu" 
 
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/FrancescoSilva"
+  github           : "FrancescoSilva"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
