@@ -20,7 +20,8 @@ My research focuses on developing **uncertainty-aware computational methods** fo
 - Generative approaches to inverse problems (flow matching, diffusion models)
 
 ### Links
-- [Publications](/publications/)
-- [CV](/cv/cv.md)
+{% include base_path %}
+- [Publications]({{ base_path }}/publications/)
+- [CV]({{ base_path }}/cv/)
 - Profiles: Google Scholar and ORCID (see sidebar).
 - Contact: francesco.silva [at] tamu [dot] edu
