@@ -7,4 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-Hi there! I am still working on my website. 
+Hi there! I am still working on this...
