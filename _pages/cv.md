@@ -13,13 +13,13 @@ redirect_from:
 
 - **Postdoctoral Researcher**, Department of Nuclear Engineering, Texas A&M University (College Station, TX, USA) — *Feb 2025–present*  
   **Research Fellow**, TAMIDS Digital Twin Lab, Texas A&M University (College Station, TX, USA) — *Jun 2025–present*  
-  Developing reduced-order models and minimally-intrusive surrogates for digital twinning, inverse problems, and data assimilation; studying ensemble-based optimization for indirect inference and uncertainty-aware updates; investigating optimal experimental design and sensor placement.
+  *Developing reduced-order models and minimally-intrusive surrogates for digital twinning, inverse problems, and data assimilation; studying ensemble-based optimization for indirect inference and uncertainty-aware updates; investigating optimal experimental design and sensor placement.*
 
 - **Research Assistant**, Department of Nuclear Engineering, Politecnico di Milano (Milan, Italy) — *Mar–Jun 2019*  
-  Non-intrusive model order reduction for state estimation; supervision/support of Master’s theses.
+  *Non-intrusive model order reduction for state estimation; supervision/support of Master’s theses.*
 
 - **R&D Intern**, SINETICS Group, Électricité de France (Palaiseau, France) — *Jul–Dec 2017*  
-  Non-intrusive reduced basis methods for inverse problems in PWRs; GEIM implementation and sensor selection for accurate field reconstruction.
+  *Non-intrusive reduced basis methods for inverse problems in PWRs; GEIM implementation and sensor selection for accurate field reconstruction.*
 
 ## Education
 
