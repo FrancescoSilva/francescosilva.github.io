@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://francescosilva.com/sitemap.xml
