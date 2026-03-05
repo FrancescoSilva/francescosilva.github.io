@@ -2,6 +2,9 @@
 
 {% include base_path %}
 
+<!-- Canonical (helps avoid duplicate indexing across domain / github.io / trailing slash variants) -->
+<link rel="canonical" href="{{ page.url | absolute_url }}"/>
+
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
@@ -14,5 +17,34 @@
 <link rel="icon" type="image/png" sizes="192x192" href="{{ base_path }}/images/favicon-192x192.png"/>
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
 <meta name="theme-color" content="#ffffff"/>
+
+<!-- Allow indexing (default is already indexable, but explicit doesn't hurt) -->
+<meta name="robots" content="index,follow"/>
+
+<!-- Structured data for Google: identify the site as your personal profile -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "url": "{{ page.url | absolute_url }}",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Francesco A.B. Silva",
+    "alternateName": ["Francesco Silva", "Francesco A. B. Silva"],
+    "url": "{{ '/' | absolute_url }}",
+    "image": "{{ '/images/profile.png' | absolute_url }}",
+    "jobTitle": "Postdoctoral Researcher",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Texas A&M University"
+    },
+    "sameAs": [
+      "https://orcid.org/0000-0002-1741-9356",
+      "https://scholar.google.com/citations?user=sUMfckYAAAAJ&hl=it",
+      "https://github.com/FrancescoSilva"
+    ]
+  }
+}
+</script>
 
 <!-- end custom head snippets -->
