@@ -23,16 +23,16 @@ redirect_from:
 
 ## Education
 
-- **Ph.D., Applied Mathematics**, Eindhoven University of Technology (Eindhoven, NL) — *Dec 2019–Oct 2024*  
+- **Ph.D., Applied Mathematics**, Eindhoven University of Technology (Eindhoven, Netherlands) — *Dec 2019–Oct 2024*  
   Thesis: *Reduced Order Modeling Techniques for Ensemble-based Data Assimilation.*
 
-- **Ph.D., Applied Mathematics** (interrupted/resumed), RWTH Aachen University (Aachen, DE) — *Jul–Nov 2019*
+- **Ph.D., Applied Mathematics** (interrupted/resumed), RWTH Aachen University (Aachen, Germany) — *Jul–Nov 2019*
 
-- **M.Sc., Nuclear Engineering**, Politecnico di Milano (Milan, IT) — *Oct 2015–Oct 2018*  
+- **M.Sc., Nuclear Engineering**, Politecnico di Milano (Milan, Italy) — *Oct 2015–Oct 2018*  
   Thesis: *Development of a Data-Driven Approach based on the Empirical Interpolation Method for Thermal-Hydraulics Analysis.*  
   Final grade: 110/110 cum laude.
 
-- **B.Sc., Energy Engineering**, Politecnico di Milano (Milan, IT) — *Sep 2012–Sep 2015*  
+- **B.Sc., Energy Engineering**, Politecnico di Milano (Milan, Italy) — *Sep 2012–Sep 2015*  
   Thesis: *Design and Prototyping of a Digital Coin Counter.*  
   Final grade: 110/110 cum laude.
 
