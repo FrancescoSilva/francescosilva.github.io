@@ -12,7 +12,7 @@ redirect_from:
 ## Employment
 
 - **Postdoctoral Researcher**, Department of Nuclear Engineering, Texas A&M University (College Station, TX, USA) — *Feb 2025–present*  
-  **Research Fellow**, TAMIDS Digital Twin Lab — *Jun 2025–present*  
+  **Research Fellow**, TAMIDS Digital Twin Lab, Texas A&M University (College Station, TX, USA) — *Jun 2025–present*  
   Developing reduced-order models and minimally-intrusive surrogates for digital twinning, inverse problems, and data assimilation; studying ensemble-based optimization for indirect inference and uncertainty-aware updates; investigating optimal experimental design and sensor placement.
 
 - **Research Assistant**, Department of Nuclear Engineering, Politecnico di Milano (Milan, Italy) — *Mar–Jun 2019*  
