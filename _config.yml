@@ -25,7 +25,7 @@ repository               : "FrancescoSilva/francescosilva.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "francesco.jpg"
   name             : "Francesco A.B. Silva"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral Researcher"
