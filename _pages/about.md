@@ -24,7 +24,5 @@ Previously, I completed a **Ph.D. in Applied Mathematics** at **Eindhoven Univer
 ### Links
 - [Publications](/publications/)
 - [CV](/cv/)
-- Google Scholar and ORCID links are also available in the sidebar (author profile).
-
-### Contact
-- francesco.silva [at] tamu [dot] edu
+- Profiles: Google Scholar and ORCID (see sidebar).
+- Contact: francesco.silva [at] tamu [dot] edu
