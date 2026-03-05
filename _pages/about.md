@@ -25,6 +25,6 @@ Previously, I earned a **Ph.D. in Applied Mathematics** from **Eindhoven Univers
 
 ### Links
 - [Publications](/publications/)
-- [CV](/cv/)
+- [CV](/cv/cv.md)
 - Profiles: Google Scholar and ORCID (see sidebar).
 - Contact: francesco.silva [at] tamu [dot] edu
