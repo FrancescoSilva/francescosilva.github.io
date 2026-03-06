@@ -23,6 +23,7 @@ My research focuses on developing uncertainty-aware computational methods for **
 
 ## Quick links
 - [Publications]({{ base_path }}/publications/)
+- [Talks]({{ base_path }}/talks/)
 - [CV]({{ base_path }}/cv/)
 
 ## Contact
