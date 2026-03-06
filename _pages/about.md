@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Hi there! I am **Francesco A.B. Silva**, a **Postdoctoral Researcher** in the Department of Nuclear Engineering at **Texas A&M University** and a Research Fellow in the **TAMIDS Digital Twin Lab**.
+Hi there! I am **Francesco Silva**, a **Postdoctoral Researcher** in the Department of Nuclear Engineering at **Texas A&M University** and a Research Fellow in the **TAMIDS Digital Twin Lab**.
 
 My research focuses on developing uncertainty-aware computational methods for **digital twinning** of complex multiphysics systems, especially in nuclear engineering and neutron transport. I work at the intersection of **reduced-order modeling**, **data assimilation**, and **optimal experimental design**, with an emphasis on reliable state/parameter estimation and model calibration. More recently, I’ve been exploring **generative models**, notably flow matching and diffusion models, as tools for **inverse problems** and uncertainty-aware reconstruction.
 
