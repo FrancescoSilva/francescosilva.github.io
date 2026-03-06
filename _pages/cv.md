@@ -61,7 +61,7 @@ redirect_from:
 - **Programming / tools:** Python, MATLAB, LaTeX; basic knowledge of C/C++, R, COMSOL.
 - **Languages:** Italian (native), English (fluent), Spanish/French (basic).
 
-## Workshops and courses (selected)
+## Workshops and courses
 
 - Postdoctoral Mentoring Academy, Texas A&M University — *Apr 2025*
 - TAMIDS Spring 2025 SciML Workshop, Texas A&M Institute of Data Science — *Mar 2025*
@@ -71,6 +71,7 @@ redirect_from:
 - Small Scale Modeling Techniques for Materials, KU Leuven — *Nov 2018*
 - Short Course on Modeling and Computation of Multiphase Flows, ETH Zurich — *Feb 2018*
 - Non-contact techniques for material testing, TU Munich — *Mar 2015*
+- Course on Project Management with IPMA, Politecnico di Milano — *Apr 2014*
 
 ## Selected conference contributions
 
