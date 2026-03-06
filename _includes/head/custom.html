@@ -54,20 +54,4 @@
 }
 </script>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    // Sidebar "Follow" links
-    document.querySelectorAll(".author__urls a[href^='http']").forEach(function (a) {
-      a.setAttribute("target", "_blank");
-      a.setAttribute("rel", "noopener noreferrer");
-    });
-
-    // Footer social links (optional, but usually desired)
-    document.querySelectorAll(".page__footer-follow a[href^='http']").forEach(function (a) {
-      a.setAttribute("target", "_blank");
-      a.setAttribute("rel", "noopener noreferrer");
-    });
-  });
-</script>
-
 <!-- end custom head snippets -->
