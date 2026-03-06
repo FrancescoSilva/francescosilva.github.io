@@ -42,7 +42,72 @@
     "vendor/font-awesome/brands"
 ;
 
+/* --- Mobile author profile: centered avatar + larger name + centered Follow --- */
 @media screen and (max-width: 1023px) {
-  .author__avatar { width: 90px; }        /* was 36px */
-  .author__avatar img { max-width: 90px; }
+  /* stack all author elements */
+  .author__avatar,
+  .author__content,
+  .author__urls-wrapper {
+    display: block;
+    width: 100%;
+  }
+
+  /* center avatar */
+  .author__avatar {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  .author__avatar img {
+    max-width: 150px;   /* tweak: 130–180px */
+    margin: 0 auto;
+  }
+
+  /* center and enlarge text */
+  .author__content {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    line-height: 1.25;   /* override theme's tight line-height */
+  }
+
+  .sidebar .author__name {
+    font-size: 1.6rem;   /* bigger name */
+    line-height: 1.2;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .author__bio,
+  .author__pronouns {
+    font-size: 1.05rem;  /* job title / bio a bit larger */
+    line-height: 1.35;
+    margin-top: 0.25rem;
+  }
+
+  /* center Follow button */
+  .author__urls-wrapper {
+    text-align: center;
+    position: relative;  /* anchor dropdown under button */
+    margin-top: 0.5rem;
+  }
+  .author__urls-wrapper button {
+    float: none;         /* override any floats */
+    display: inline-block;
+    margin: 0.25rem auto 0;
+  }
+
+  /* center the dropdown list (social links) under the button */
+  .author__urls {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    margin-top: 0.75rem;
+    text-align: left;    /* keep links readable */
+    z-index: 20;         /* ensure it overlays cleanly */
+  }
+
+  /* when JS toggles visibility, make sure it stays on top */
+  .author__urls.is--visible {
+    z-index: 30;
+  }
 }
