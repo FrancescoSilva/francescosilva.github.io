@@ -42,7 +42,7 @@
     "vendor/font-awesome/brands"
 ;
 
-/* --- Mobile author profile: centered avatar + larger name + larger job title + centered Follow (larger button & menu) --- */
+/* --- Mobile author profile: centered avatar + larger name + readable job title + centered Follow (moderate button & menu) --- */
 @media screen and (max-width: 1023px) {
   /* Stack all author elements (override theme table-cells) */
   .sidebar .author__avatar,
@@ -98,17 +98,18 @@
   .sidebar .author__urls-wrapper {
     text-align: center;
     position: relative;
-    margin-top: 0.6rem;
+    margin-top: 0.55rem;
   }
 
-  /* Larger Follow button */
-  .sidebar .author__urls-wrapper button {
+  /* Follow button: moderate size */
+  .sidebar .author__urls-wrapper button,
+  .sidebar .author__urls-wrapper button.btn {
     float: none;
     display: inline-block;
-    margin: 0.35rem auto 0;
-    font-size: 1.10rem;       /* larger label */
-    padding: 0.60rem 1.05rem; /* larger tap target */
-    border-radius: 0.6rem;
+    margin: 0.3rem auto 0;
+    font-size: 0.95rem;       /* was 1.10rem */
+    padding: 0.45rem 0.85rem; /* was 0.60rem 1.05rem */
+    border-radius: 0.5rem;
   }
 
   /* Center dropdown list under Follow button */
@@ -116,30 +117,33 @@
     left: 50%;
     right: auto;
     transform: translateX(-50%);
-    margin-top: 0.85rem;
+    margin-top: 0.75rem;
     text-align: left;
     z-index: 20;
-    width: min(360px, 92vw);  /* a bit wider than before */
-    font-size: 1.05rem;       /* larger link text */
+    width: min(320px, 92vw);  /* a bit less wide than 360px */
   }
 
   .sidebar .author__urls.is--visible {
     z-index: 30;
   }
 
-  /* Larger tap targets for dropdown items */
+  /* Dropdown links: stronger selector + !important to beat theme defaults */
+  .sidebar .author__urls.social-icons a,
+  .sidebar .author__urls a {
+    display: block;
+    font-size: 1.0rem !important;          /* ensure it changes */
+    padding: 0.50rem 0.75rem !important;   /* ensure tap target changes */
+    line-height: 1.25;
+    margin: 0 !important;
+  }
+
   .sidebar .author__urls li {
     margin: 0;
   }
-  .sidebar .author__urls a {
-    display: block;
-    padding: 0.55rem 0.85rem; /* bigger per-item tap target */
-    line-height: 1.25;
-  }
 
-  /* Slightly larger icons in the dropdown */
+  /* Slightly larger icons in the dropdown (not huge) */
   .sidebar .author__urls i,
   .sidebar .author__urls svg {
-    font-size: 1.15em;
+    font-size: 1.1em;
   }
 }
