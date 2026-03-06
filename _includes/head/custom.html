@@ -18,8 +18,6 @@
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
 <meta name="theme-color" content="#ffffff"/>
 
-<!-- end custom head snippets -->
-
 <!-- Allow indexing (default is already indexable, but explicit doesn't hurt) -->
 <meta name="robots" content="index,follow"/>
 
@@ -32,7 +30,14 @@
   "mainEntity": {
     "@type": "Person",
     "name": "Francesco A.B. Silva",
-    "alternateName": ["Francesco Silva", "Francesco A. B. Silva"],
+    "givenName": "Francesco",
+    "additionalName": "Attilio Bruno",
+    "familyName": "Silva",
+    "alternateName": [
+      "Francesco Silva",
+      "Francesco A. B. Silva",
+      "Francesco Attilio Bruno Silva"
+    ],
     "url": "{{ '/' | absolute_url }}",
     "image": "{{ '/images/profile.png' | absolute_url }}",
     "jobTitle": "Postdoctoral Researcher",
