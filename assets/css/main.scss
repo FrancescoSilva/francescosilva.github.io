@@ -42,7 +42,7 @@
     "vendor/font-awesome/brands"
 ;
 
-/* --- Mobile author profile: centered avatar + larger name + larger job title + centered Follow --- */
+/* --- Mobile author profile: centered avatar + larger name + larger job title + centered Follow (larger button & menu) --- */
 @media screen and (max-width: 1023px) {
   /* Stack all author elements (override theme table-cells) */
   .sidebar .author__avatar,
@@ -78,7 +78,7 @@
     margin: 0.2rem 0 0.25rem 0;
   }
 
-  /* Bigger job title / bio (this is the line under the name) */
+  /* Bigger job title / bio (line under the name) */
   .sidebar .author__bio,
   .sidebar .author__bio p {
     font-size: 1.20rem;   /* tweak: 1.10–1.35rem */
@@ -100,10 +100,15 @@
     position: relative;
     margin-top: 0.6rem;
   }
+
+  /* Larger Follow button */
   .sidebar .author__urls-wrapper button {
     float: none;
     display: inline-block;
-    margin: 0.25rem auto 0;
+    margin: 0.35rem auto 0;
+    font-size: 1.10rem;       /* larger label */
+    padding: 0.60rem 1.05rem; /* larger tap target */
+    border-radius: 0.6rem;
   }
 
   /* Center dropdown list under Follow button */
@@ -111,13 +116,30 @@
     left: 50%;
     right: auto;
     transform: translateX(-50%);
-    margin-top: 0.8rem;
+    margin-top: 0.85rem;
     text-align: left;
     z-index: 20;
-    width: min(320px, 92vw);  /* keeps it nice on narrow phones */
+    width: min(360px, 92vw);  /* a bit wider than before */
+    font-size: 1.05rem;       /* larger link text */
   }
 
   .sidebar .author__urls.is--visible {
     z-index: 30;
+  }
+
+  /* Larger tap targets for dropdown items */
+  .sidebar .author__urls li {
+    margin: 0;
+  }
+  .sidebar .author__urls a {
+    display: block;
+    padding: 0.55rem 0.85rem; /* bigger per-item tap target */
+    line-height: 1.25;
+  }
+
+  /* Slightly larger icons in the dropdown */
+  .sidebar .author__urls i,
+  .sidebar .author__urls svg {
+    font-size: 1.15em;
   }
 }
