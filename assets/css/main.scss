@@ -41,3 +41,8 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+@media screen and (max-width: 1023px) {
+  .author__avatar { width: 90px; }        /* was 36px */
+  .author__avatar img { max-width: 90px; }
+}
