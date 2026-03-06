@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Francesco A. B. Silva"
 title_separator          : "-"
 name                     : &name "Francesco A. B. Silva"
-description              : &description "Francesco Silva's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Francesco A. B. Silva's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://francescosilva.com
 # url                      : https://francescosilva.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
 #                                                             # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
