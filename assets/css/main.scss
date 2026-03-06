@@ -42,72 +42,82 @@
     "vendor/font-awesome/brands"
 ;
 
-/* --- Mobile author profile: centered avatar + larger name + centered Follow --- */
+/* --- Mobile author profile: centered avatar + larger name + larger job title + centered Follow --- */
 @media screen and (max-width: 1023px) {
-  /* stack all author elements */
-  .author__avatar,
-  .author__content,
-  .author__urls-wrapper {
+  /* Stack all author elements (override theme table-cells) */
+  .sidebar .author__avatar,
+  .sidebar .author__content,
+  .sidebar .author__urls-wrapper {
     display: block;
     width: 100%;
   }
 
-  /* center avatar */
-  .author__avatar {
+  /* Center avatar */
+  .sidebar .author__avatar {
     text-align: center;
-    margin-bottom: 0.5rem;
+    margin: 0 0 0.6rem 0;
   }
-  .author__avatar img {
-    max-width: 150px;   /* tweak: 130–180px */
+  .sidebar .author__avatar img {
+    max-width: 150px;     /* tweak: 130–180px */
+    width: 100%;
+    height: auto;
     margin: 0 auto;
   }
 
-  /* center and enlarge text */
-  .author__content {
+  /* Center content */
+  .sidebar .author__content {
     text-align: center;
-    padding-left: 0;
-    padding-right: 0;
-    line-height: 1.25;   /* override theme's tight line-height */
+    padding: 0;
+    line-height: 1.3;
   }
 
+  /* Bigger name */
   .sidebar .author__name {
-    font-size: 1.6rem;   /* bigger name */
-    line-height: 1.2;
-    margin-top: 0.25rem;
-    margin-bottom: 0.25rem;
+    font-size: 1.65rem;   /* tweak: 1.5–1.9rem */
+    line-height: 1.15;
+    margin: 0.2rem 0 0.25rem 0;
   }
 
-  .author__bio,
-  .author__pronouns {
-    font-size: 1.05rem;  /* job title / bio a bit larger */
+  /* Bigger job title / bio (this is the line under the name) */
+  .sidebar .author__bio,
+  .sidebar .author__bio p {
+    font-size: 1.20rem;   /* tweak: 1.10–1.35rem */
     line-height: 1.35;
-    margin-top: 0.25rem;
+    margin: 0.15rem 0 0 0;
   }
 
-  /* center Follow button */
-  .author__urls-wrapper {
-    text-align: center;
-    position: relative;  /* anchor dropdown under button */
-    margin-top: 0.5rem;
+  /* If pronouns are enabled, keep them readable too */
+  .sidebar .author__pronouns,
+  .sidebar .author__pronouns p {
+    font-size: 1.05rem;
+    line-height: 1.3;
+    margin: 0.15rem 0 0 0;
   }
-  .author__urls-wrapper button {
-    float: none;         /* override any floats */
+
+  /* Center Follow button (and keep dropdown anchored under it) */
+  .sidebar .author__urls-wrapper {
+    text-align: center;
+    position: relative;
+    margin-top: 0.6rem;
+  }
+  .sidebar .author__urls-wrapper button {
+    float: none;
     display: inline-block;
     margin: 0.25rem auto 0;
   }
 
-  /* center the dropdown list (social links) under the button */
-  .author__urls {
+  /* Center dropdown list under Follow button */
+  .sidebar .author__urls {
     left: 50%;
     right: auto;
     transform: translateX(-50%);
-    margin-top: 0.75rem;
-    text-align: left;    /* keep links readable */
-    z-index: 20;         /* ensure it overlays cleanly */
+    margin-top: 0.8rem;
+    text-align: left;
+    z-index: 20;
+    width: min(320px, 92vw);  /* keeps it nice on narrow phones */
   }
 
-  /* when JS toggles visibility, make sure it stays on top */
-  .author__urls.is--visible {
+  .sidebar .author__urls.is--visible {
     z-index: 30;
   }
 }
