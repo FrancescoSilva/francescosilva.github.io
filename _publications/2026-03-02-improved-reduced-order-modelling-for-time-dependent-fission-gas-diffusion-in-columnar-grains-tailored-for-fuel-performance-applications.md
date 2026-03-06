@@ -3,12 +3,12 @@ title: "Improved reduced order modelling for time-dependent fission gas diffusio
 collection: publications
 category: manuscripts
 permalink: /publication/2026-03-02-improved-reduced-order-modelling-for-time-dependent-fission-gas-diffusion-in-columnar-grains-tailored-for-fuel-performance-applications
-excerpt: 'Status: In revision. Preprint available online.'
-date: 2026-03-02
-venue: "Preprint (SSRN)"
-paperurl: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5184136"
-citation: 'Di Gennaro, M., Pizzocri, D., Silva, F. A. B., Zullo, G., Lorenzi, L., Cammi, A., & Luzzi, L. (2026). “Improved reduced order modelling for time-dependent fission gas diffusion in columnar grains tailored for fuel performance applications.” <i>Preprint (SSRN)</i>. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5184136'
+excerpt: 'Improved reduced-order modelling for intra-granular fission gas diffusion in columnar grains for fuel performance applications.'
+date: 2026-02-06
+venue: "Nuclear Engineering and Technology"
+paperurl: "https://doi.org/10.1016/j.net.2026.104178"
+doi: "10.1016/j.net.2026.104178"
+citation: 'Di Gennaro, M., Pizzocri, D., Silva, F. A. B., Zullo, G., Lorenzi, S., Cammi, A., & Luzzi, L. (2026). “Improved reduced order modelling for time-dependent fission gas diffusion in columnar grains tailored for fuel performance applications.” <i>Nuclear Engineering and Technology</i>, 104178. https://doi.org/10.1016/j.net.2026.104178'
 ---
 
-**Status:** In revision.
-- Paper / DOI link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5184136
+- Paper / DOI link: https://doi.org/10.1016/j.net.2026.104178
