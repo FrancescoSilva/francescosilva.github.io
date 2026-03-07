@@ -75,6 +75,8 @@ redirect_from:
 
 ## Selected conference contributions
 
+For a complete list of talks and presentations, see the [Talks page](/talks/).
+
 - ISDA 2025 — *Sep 2025*, Melbourne (contributed talk)
 - ECCOMAS 2024 — *Jun 2024*, Lisbon (minisymposium talk)
 - SIAM UQ 2024 — *Mar 2024*, Trieste (minisymposium talk)
