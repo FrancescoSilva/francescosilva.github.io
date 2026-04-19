@@ -77,6 +77,7 @@ redirect_from:
 
 For a complete list of talks and presentations, see the [Talks page](/talks/).
 
+- SIAM UQ 2026 — *Mar 2026*, Minneapolis (minisymposium talk)
 - ISDA 2025 — *Sep 2025*, Melbourne (contributed talk)
 - ECCOMAS 2024 — *Jun 2024*, Lisbon (minisymposium talk)
 - SIAM UQ 2024 — *Mar 2024*, Trieste (minisymposium talk)
