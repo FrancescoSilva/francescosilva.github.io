@@ -20,6 +20,7 @@ My research focuses on developing uncertainty-aware computational methods for **
 - Optimal experimental design and sensor placement
 - Multi-physics and neutron transport applications
 - Generative approaches to inverse problems (flow matching, diffusion models)
+- Data-driven finite element methods and scientific machine learning
 
 ## Quick links
 - [Publications]({{ base_path }}/publications/)
