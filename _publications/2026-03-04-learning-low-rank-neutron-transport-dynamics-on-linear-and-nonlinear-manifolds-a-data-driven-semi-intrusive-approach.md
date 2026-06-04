@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2026-03-04-learning-low-rank-neutron-transport-dynamics-on-linear-and-nonlinear-manifolds-a-data-driven-semi-intrusive-approach
 excerpt: 'Low-rank neutron transport dynamics on linear subspaces and nonlinear manifolds using a semi-intrusive operator-inferred approach.'
-date: 2026-01-01
+date: 2026-11-01
 venue: "Computer Methods in Applied Mechanics and Engineering"
 paperurl: "https://doi.org/10.1016/j.cma.2026.119091"
 doi: "10.1016/j.cma.2026.119091"
