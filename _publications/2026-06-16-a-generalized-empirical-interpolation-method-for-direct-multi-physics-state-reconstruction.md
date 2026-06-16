@@ -2,7 +2,7 @@
 title: "A generalized empirical interpolation method for direct multi-physics state reconstruction"
 collection: publications
 category: manuscripts
-permalink: /publication/2026-03-03-a-generalized-empirical-interpolation-method-for-direct-multi-physics-state-reconstruction
+permalink: /publication/2026-06-16-a-generalized-empirical-interpolation-method-for-direct-multi-physics-state-reconstruction
 excerpt: 'Direct multi-physics state reconstruction from sparse sensor data for reactor monitoring.'
 date: 2026-06-16
 venue: "Applied Mathematical Modelling"
