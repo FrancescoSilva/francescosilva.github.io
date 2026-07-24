@@ -77,13 +77,14 @@ redirect_from:
 
 For a complete list of talks and presentations, see the [Talks page](/talks/).
 
+- WCCM-ECCOMAS 2026 — *Jul 2026*, Munich (minisymposium talk)
 - SIAM UQ 2026 — *Mar 2026*, Minneapolis (minisymposium talk)
 - ISDA 2025 — *Sep 2025*, Melbourne (contributed talk)
 - ECCOMAS 2024 — *Jun 2024*, Lisbon (minisymposium talk)
 - SIAM UQ 2024 — *Mar 2024*, Trieste (minisymposium talk)
 - ICIAM 2023 — *Aug 2023*, Tokyo (minisymposium talk)
 - YIC 2023 — *Jun 2023*, Porto (minisymposium organizer)
-- SIAM CSE23 — *Feb 2023*, Amsterdam (invited minisymposium talk)
+- SIAM CSE23 — *Feb 2023*, Amsterdam (minisymposium talk)
 
 ## Publications
 
