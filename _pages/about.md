@@ -13,7 +13,7 @@ Hi there! I am **Francesco A.B. Silva**, a **Postdoctoral Researcher** in the De
 
 My research focuses on developing uncertainty-aware computational methods for **digital twins of complex multiphysics systems**, with particular emphasis on nuclear engineering and neutron transport. I work at the intersection of **reduced-order modeling**, **multiscale methods**, **data assimilation**, and **optimal experimental design**, developing methods for reliable state and parameter estimation, model calibration, sparse reconstruction, and sensor placement. More recently, I have been exploring **generative models**, including flow matching and diffusion models, for **inverse problems** and uncertainty-aware reconstruction.
 
-### Research interests and current directions
+### Research interests
 - Reduced-order modeling on linear subspaces and nonlinear manifolds
 - Operator inference and data-driven reduced modeling
 - Multiscale methods for parametrized and heterogeneous PDEs
