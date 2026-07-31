@@ -11,16 +11,16 @@ redirect_from:
 
 Hi there! I am **Francesco A.B. Silva**, a **Postdoctoral Researcher** in the Department of Nuclear Engineering at **Texas A&M University** and a Research Fellow in the **TAMIDS Digital Twin Lab**.
 
-My research focuses on developing uncertainty-aware computational methods for **digital twinning** of complex multiphysics systems, especially in nuclear engineering and neutron transport. I work at the intersection of **reduced-order modeling**, **data assimilation**, and **optimal experimental design**, with an emphasis on reliable state/parameter estimation and model calibration. More recently, I’ve been exploring **generative models**, notably flow matching and diffusion models, as tools for **inverse problems** and uncertainty-aware reconstruction.
+My research focuses on developing uncertainty-aware computational methods for **digital twins of complex multiphysics systems**, with particular emphasis on nuclear engineering and neutron transport. I work at the intersection of **reduced-order modeling**, **multiscale methods**, **data assimilation**, and **optimal experimental design**, developing methods for reliable state and parameter estimation, model calibration, sparse reconstruction, and sensor placement. More recently, I have been exploring **generative models**, including flow matching and diffusion models, for **inverse problems** and uncertainty-aware reconstruction.
 
-### Research interests
-- Reduced-order modeling (RB, non-intrusive / semi-intrusive surrogates)
-- Ensemble Kalman methods for data assimilation and inversion
-- Digital twins, model calibration, and uncertainty quantification
-- Optimal experimental design and sensor placement
-- Multi-physics and neutron transport applications
-- Generative approaches to inverse problems (flow matching, diffusion models)
-- Data-driven multiscale finite element methods
+### Research interests and current directions
+- Reduced-order modeling on linear subspaces and nonlinear manifolds
+- Operator inference and data-driven reduced modeling
+- Multiscale methods for parametrized and heterogeneous PDEs
+- Data assimilation, inverse problems, and model calibration
+- Sparse state reconstruction and optimal sensor placement
+- Nuclear digital twins and multiphysics modeling
+- Generative methods for inverse problems and uncertainty-aware reconstruction
 
 ## Quick links
 - [Publications]({{ base_path }}/publications/)
